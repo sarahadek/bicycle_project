@@ -1,6 +1,16 @@
 🚲 London Santander Cycles: End-to-End ELT Pipeline
 This project demonstrates a production-grade ELT (Extract, Load, Transform) pipeline. It automates the ingestion of London Santander Cycle (TFL) data into Google Cloud, optimizes it for high-performance analytics using dbt, and visualizes key urban mobility insights in Power BI.
+🚀 Getting Started
+1. Build the Image
+We use a Multi-stage build powered by uv to keep the image lightweight and fast.
 
+Bash
+docker build -t bicycle-pipeline:v1 .
+2. Run with Docker Compose
+The easiest way to start the container with all necessary environment variables and volume mounts:
+
+Bash
+docker-compose up
 🛠️ Technical Stack
 Infrastructure: Terraform (Infrastructure as Code)
 

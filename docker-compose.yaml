@@ -1,0 +1,11 @@
+services:
+  bicycle-app:
+    image: bicycle-pipeline:v1
+    container_name: bicycle_container
+    volumes:
+      - ./terraform/keyproject.json:/app/secrets/keyproject.json
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/secrets/keyproject.json
+    # This keeps the container open so you can look around if needed
+    stdin_open: true
+    tty: true
