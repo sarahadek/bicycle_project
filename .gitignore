@@ -31,3 +31,4 @@ airflow/standalone_admin_password.txt
 # dbt
 dbt_transformation/target/
 dbt_transformation/dbt_packages/
+terraform/terraform.tfvarsterraform/terraform.tfvars
