@@ -1,0 +1,31 @@
+[0m19:01:16.784487 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70ab764c4b30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70ab78ae9e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70ab76b1aba0>]}
+
+
+============================== 19:01:16.791097 | 9ffe83e6-f24e-413e-b409-0a557dd7d035 ==============================
+[0m19:01:16.791097 [info ] [MainThread]: Running with dbt=1.11.8
+[0m19:01:16.792740 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'log_format': 'default', 'empty': 'None', 'indirect_selection': 'eager', 'profiles_dir': '/home/codespace/.dbt', 'version_check': 'True', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'warn_error': 'None', 'printer_width': '80', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt init dbt_transformation', 'target_path': 'None', 'write_json': 'True', 'log_cache_events': 'False', 'fail_fast': 'False', 'introspect': 'True', 'no_print': 'None', 'log_path': 'logs'}
+[0m19:01:16.841402 [info ] [MainThread]: Creating dbt configuration folder at /home/codespace/.dbt
+[0m19:01:16.844545 [debug] [MainThread]: Starter project path: /workspaces/bicycle_project/bicycle-pipeline/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m19:01:16.852207 [info ] [MainThread]: 
+Your new dbt project "dbt_transformation" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:01:16.853388 [info ] [MainThread]: Setting up your profile.
+[0m19:03:25.071744 [info ] [MainThread]: Profile dbt_transformation written to /home/codespace/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:03:25.073182 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 128.35832, "process_in_blocks": "2568", "process_kernel_time": 0.316025, "process_mem_max_rss": "238720", "process_out_blocks": "24688", "process_user_time": 3.832927}
+[0m19:03:25.074461 [debug] [MainThread]: Command `dbt init` succeeded at 19:03:25.074284 after 128.36 seconds
+[0m19:03:25.075285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70ab7633d3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70ab645ea2a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70ab64ab33b0>]}
+[0m19:03:25.076170 [debug] [MainThread]: Flushing usage events
+[0m19:03:25.435811 [debug] [MainThread]: An error was encountered while trying to flush usage events

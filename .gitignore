@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.json
+# Secrets
+*.json
+terraform/keyproject.json
+
+# Python/uv
+__pycache__/
+.venv/
+.pytest_cache/
+
+# Airflow
+airflow/*.db
+airflow/*.log
+airflow/standalone_admin_password.txt
+
+# dbt
+dbt_transformation/target/
+dbt_transformation/dbt_packages/

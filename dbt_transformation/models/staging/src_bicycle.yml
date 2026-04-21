@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bicycle_source
+    database: stately-math-492314-u2  # Project ID
+    schema: bicycle_dataset
+    tables:
+      - name: stg_santander  # The table partitioned
